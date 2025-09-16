@@ -18,7 +18,11 @@ project "glfwPremake"
 		"src/monitor.c",
 		"src/vulkan.c",
 		"src/window.c",
-		"src/platform.c"
+		"src/platform.c",
+		"src/platform.c",
+    	"src/null_init.c",
+    	"src/null_monitor.c",
+    	"src/null_window.c"
 	}
 
 	filter "system:linux"
